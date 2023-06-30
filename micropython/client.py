@@ -20,9 +20,9 @@ networks = wifi.scan()
 
 print(networks)
 #Connecting Wifi
-SSID = "Bava"# str(input("Enter SSID: "))
-Pwd  = "12345678"
-LocalIpServer = "192.168.43.44"
+SSID = "Your Wifi ID"
+Pwd  = "Your Wifi ID password"
+LocalIpServer = "Your Express server ip like 192.168.43.44"
 wifi.connect(SSID,Pwd)
 
 
